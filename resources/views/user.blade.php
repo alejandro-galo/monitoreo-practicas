@@ -50,7 +50,7 @@
                     <th>Título</th>
                     <th>Carrera</th>
                     <th>Estado</th>
-                    <th>Archivo</th>
+                    <!--th>Archivo</th-->
                     <th>Acción</th>
                 </tr>
             </thead>
@@ -66,7 +66,7 @@
                                 <span class="badge bg-success">Publicado</span>
                             @endif
                         </td>
-                       <td class="text-center">
+                       <!--td class="text-center">
                             @if($pra->estPra == 1 && $pra->arcPra)
                                 <a href="{{ asset('storage/' . $pra->arcPra) }}" class="btn btn-sm btn-warning" download>
                                     Descargar archivo
@@ -76,7 +76,7 @@
                             @else
                                 <span class="text-muted">—</span>
                             @endif
-                        </td>
+                        </td-->
                         <td>
                             @if($pra->estPra == 1)
                                 <a href="{{ route('practicas.show', ['id' => $pra->codPra]) }}" class="btn btn-sm btn-info">

@@ -16,6 +16,7 @@
                     <th>Carrera</th>
                     <th>Estado</th>
                     <!--th>Archivo</th-->
+                    <th>Fecha de inicio</th>
                     <th>Acción</th>
                 </tr>
             </thead>
@@ -42,6 +43,7 @@
                                 <span class="text-muted">—</span>
                             @endif
                         </td-->
+                        <td>{{ $pra->iniPra }}</td>
                         <td class="text-center">
                             @if($pra->estPra == 1)
                                 <a href="{{ route('practicas.show', ['id' => $pra->codPra]) }}" class="btn btn-sm btn-info">
