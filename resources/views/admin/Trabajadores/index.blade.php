@@ -46,6 +46,11 @@
                                 <span class="badge bg-danger">Inactivo</span>
                             @endif
                         </td>
+                        <td class="text-center" style="width: 50px;">
+                            <a href="{{ url('/admin/trabajadores/') }}/{{$trab->codTrab}}" class="btn btn-dark">
+                                <i class="fa fa-pencil"></i> 
+                            </a>
+                        </td>
                     </tr>
                 @endforeach
             </tbody>

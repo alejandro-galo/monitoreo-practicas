@@ -19,6 +19,7 @@
                     <th>Nombre</th>
                     <th>Correo</th>
                     <th>Rol</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -29,6 +30,11 @@
                         <td>{{ $doc->nomTrab }} {{ $doc->appTrab }}</td>
                         <td>{{ $doc->emaTrab }}</td>
                         <td>{{ $doc->rolTrab == 2 ? 'Docente' : 'Otro' }}</td>
+                        <td class="text-center" style="width: 50px;">
+                            <a href="{{ url('/admin/docentes/') }}/{{$doc->codTrab}}" class="btn btn-dark">
+                                <i class="fa fa-pencil"></i> 
+                            </a>
+                        </td>
                                             </div>
 
                     </tr>

@@ -31,6 +31,12 @@
                     </td>
                     <td>{{ $emp->latEmp }}</td>
                     <td>{{ $emp->lonEmp }}</td>
+                    <td class="text-center" style="width: 50px;">
+                        <a href="{{ url('/admin/empresas/') }}/{{$emp->codEmp}}" class="btn btn-dark">
+                            <i class="fa fa-pencil"></i> 
+                        </a>
+                    </td>
+                    
                 </tr>
             @endforeach
         </tbody>

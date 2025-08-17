@@ -20,6 +20,7 @@
                     <th><i class="fa fa-user"></i> Nombre</th>
                     <th><i class="fa fa-envelope"></i> Correo</th>
                     <th><i class="fa fa-graduation-cap"></i> Carrera</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -28,6 +29,11 @@
                         <td>{{ $est->nomEst }} {{ $est->appEst }}</td>
                         <td>{{ $est->emaEst }}</td>
                         <td>{{ $est->carrera->nomCar ?? 'N/A' }}</td>
+                        <td class="text-center" style="width: 50px;">
+                            <a href="{{ url('/admin/estudiantes/') }}/{{$est->codEst}}" class="btn btn-dark">
+                                <i class="fa fa-pencil"></i> 
+                            </a>
+                        </td>
                     </tr>
                 @endforeach
             </tbody>

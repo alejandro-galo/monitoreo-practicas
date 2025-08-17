@@ -13,7 +13,8 @@
                 <th>Código</th>
                 <th>Nombre</th>
                 <th>Tipo</th>
-                <th>Detalle</th>
+                <th>Detalle</th>\
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -23,6 +24,11 @@
                 <td>{{ $facultad->nomFac }}</td>
                 <td>{{ $facultad->tipoFac }}</td>
                 <td>{{ $facultad->detFac }}</td>
+                <td class="text-center" style="width: 50px;">
+                    <a href="{{ url('/admin/Facultad/') }}/{{$facultad->codTrab}}" class="btn btn-dark">
+                        <i class="fa fa-pencil"></i> 
+                    </a>
+                </td>
             </tr>
             @endforeach
         </tbody>
