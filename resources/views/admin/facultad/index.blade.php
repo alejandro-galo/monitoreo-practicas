@@ -13,7 +13,7 @@
                 <th>Código</th>
                 <th>Nombre</th>
                 <th>Tipo</th>
-                <th>Detalle</th>\
+                <th>Detalle</th>
                 <th></th>
             </tr>
         </thead>

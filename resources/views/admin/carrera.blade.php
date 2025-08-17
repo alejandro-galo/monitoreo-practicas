@@ -13,7 +13,8 @@
             <thead class="table-dark">
                 <tr>
                     <th>Nombre</th>
-                    <th>Detalle</th>
+                    <th>Detalle</th>\
+                    <th></th>
                 </tr>
             </thead>
             <tbody>

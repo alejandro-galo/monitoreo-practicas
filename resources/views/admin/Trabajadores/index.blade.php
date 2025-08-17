@@ -22,6 +22,7 @@
                     <th><i class="fa fa-id-badge"></i> Documento</th>
                     <th><i class="fa fa-briefcase"></i> Rol</th>
                     <th><i class="fa fa-check-circle"></i> Estado</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>

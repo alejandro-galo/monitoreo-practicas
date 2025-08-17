@@ -16,6 +16,7 @@
                 <th><i class="fa fa-briefcase"></i> Tipo</th>
                 <th><i class="fa fa-location-arrow"></i> Lat</th>
                 <th><i class="fa fa-location-arrow"></i> Lon</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
