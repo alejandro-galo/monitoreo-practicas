@@ -24,7 +24,7 @@
                         <td>{{ $doc->nomCar }} </td>
                         <td>{{ $doc->detCar }}</td>
                         <td class="text-center" style="width: 50px;">
-                            <a href="{{ url('/admin/Carreras/') }}/{{$est->codCar}}" class="btn btn-dark">
+                            <a href="{{ url('/admin/Carreras/') }}/{{$doc->codCar}}" class="btn btn-dark">
                                 <i class="fa fa-pencil"></i> 
                             </a>
                         </td>
