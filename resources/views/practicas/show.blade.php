@@ -40,11 +40,12 @@
                     <a href="{{ asset('storage/' . $practica->arcPra) }}" class="btn btn-sm btn-outline-primary" download>Descargar</a>
                 </p>
             @endif
-
+<!--
             @if($practica->imgPra)
                 <p><strong>Imagen:</strong></p>
                 <img src="{{ asset('storage/' . $practica->imgPra) }}" class="img-fluid rounded" style="max-width: 300px;">
             @endif
+-->
         </div>
 
       
