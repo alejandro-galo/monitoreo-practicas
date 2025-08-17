@@ -22,6 +22,9 @@ class AuthController extends Controller
         $usuario = Usuario::whereHas('trabajador', function ($q) use ($email) {
             $q->where('emaTrab', $email);
         })->with('trabajador')->first();
+        if ($usuario && $usuario->trabajador->estTra === 0){
+            return back()->withErrors(['error' => 'Usuario inactivo']);
+        }
 
         if ($usuario && $usuario->pasUsu === $password) {
             // Guardar en sesión
