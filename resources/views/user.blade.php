@@ -136,7 +136,7 @@
                                         <tr>
                                             <td colspan="4" class="text-center py-5 text-muted">
                                                 <i class="bi bi-journal-x display-5 opacity-50"></i>
-                                                <p class="mt-3 mb-0 fw-light">No se encontraron prácticas registradas.</p>
+                                                <p class="mt-3 mb-0 fw-light">No se encontraron prácticas Pendientes.</p>
                                             </td>
                                         </tr>
                                     @endforelse
