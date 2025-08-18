@@ -9,7 +9,9 @@
 
     <!-- Fondo -->
     <div class="bg-image" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAtNiRQaLJI7xhnJHGNZurx4OM829GgSlQpw&s'); background-size: cover; background-position: center; min-height: 100vh; position: relative;">
-        <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
+        
+    
+    <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
         <div class="content" style="position: relative; z-index: 1; padding: 3rem 1rem;">
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-xl-8">

@@ -11,7 +11,10 @@ class Estudiante extends Model
     public $timestamps = false;
 
     protected $fillable = [
-        'nomEst', 'appEst', 'emaEst', 'codCar'
+        'nomEst',
+         'appEst',
+          'emaEst', 
+          'codCar'
     ];
 
     public function carrera()

@@ -21,7 +21,7 @@
         </div>
     @endif
 
-    <form action="{{ route('facultad.store') }}" method="POST" class="card p-4 shadow">
+    <form action="{{ route('facultad.store') }}" method="POhttps://github.com/alejandro-galo/monitoreo-practicas.githttps://github.com/alejandro-galo/monitoreo-practicas.gitST" class="card p-4 shadow">
         @csrf
 
         <div class="mb-3">
