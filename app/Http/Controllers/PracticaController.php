@@ -16,16 +16,18 @@ class PracticaController extends Controller
         if ($request->filled('carrera')) {
             $query->where('codCar', $request->carrera);
         }
-        $path = storage_path('app/visitas.txt'); // Archivo donde guardamos el contador
         $practicas = $query->get();
         $carreras = Carrera::all();
-         if (!File::exists($path)) {
-            File::put($path, 0);
+        
+        $file = storage_path('../app/visitas.txt'); // Archivo donde guardamos el contador
+         if (!File::exists($file)) {
+            File::put($file, 0);
         }      
-          $visitas = (int) File::get($path);
+          $visitas = (int) file_get_contents($file);
+
          $visitas++;
         // Guardamos el nuevo valor
-        File::put($path, $visitas);
+        file_put_contents($file, $visitas);
 
         return view('practicas.index', compact('practicas', 'carreras','visitas'));
     }
