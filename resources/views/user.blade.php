@@ -21,7 +21,7 @@
                     <!-- Encabezado principal -->
                     <div class="text-center mb-4">
                         <h1 class="text-white fw-bold display-6">
-                            Sistema de Gestión de Prácticas Preprofesionales
+                            Sistema de Gestión de Prácticas Pre-profesionales
                         </h1>
                         <p class="text-light opacity-75">Universidad Tecnológica de los Andes – Campus Abancay</p>
                     </div>
