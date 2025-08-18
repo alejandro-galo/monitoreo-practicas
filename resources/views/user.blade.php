@@ -4,11 +4,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Logo y nombre UTEA: FIJO en esquina superior derecha -->
-    <div class="position-fixed top-0 end-0 m-3 d-flex align-items-center gap-2" style="z-index: 1000;">
-        <img src="https://i0.wp.com/utea.edu.pe/wp-content/uploads/2022/01/logo-esucdo-utea.png?resize=246%2C282&ssl=1" 
-             alt="UTEA" style="height: 70px; filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));">
-        <span class="text-white fw-bold fs-5 text-shadow" style="text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">UTEA</span>
-    </div>
+        <div class="position-fixed top-0 end-0 m-3 d-flex align-items-center gap-2" style="z-index: 1000;">
+            <img src="https://i0.wp.com/utea.edu.pe/wp-content/uploads/2022/01/logo-esucdo-utea.png?resize=246%2C282&ssl=1" 
+                alt="UTEA" style="height: 70px; filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));">
+            <span class="text-white fw-bold fs-5 text-shadow" style="text-shadow: 1px 1px 3px rgba(0,0,0,0.5);">UTEA</span>
+        </div>
 
     <!-- Fondo institucional con overlay -->
     <div class="bg-image" style="background-image: url('https://i0.wp.com/utea.edu.pe/wp-content/uploads/2019/10/UTEA-Fotos-campus-Abancay-05.jpg?fit=1030%2C582&ssl=1'); background-size: cover; background-position: center; min-height: 100vh; position: relative;">
