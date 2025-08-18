@@ -41,8 +41,8 @@
 
                     <!-- Filtro -->
                     <div class="card shadow-lg border-0 rounded-4 mb-4">
-                        <div class="card-header bg-gradient text-white py-3">
-                            <h4 class="mb-0"><i class="bi bi-funnel me-2"></i>Filtrar por carrera</h4>
+                        <div class="card-header bg-gradient  py-3">
+                            <h4 class="mb-0"><i class="bi text-secondary bi-funnel me-2"></i>Filtrar por carrera</h4>
                         </div>
                         <div class="card-body p-4">
                             <form method="GET" action="{{ route('practicas.index') }}" class="row g-4">
